@@ -11,6 +11,7 @@
         <c:import url="banner.html"/>
 
         <c:import url="loginPage.jsp"/>
+        
         <c:import url="footer.html"/>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -7,31 +7,42 @@ import java.io.Serializable;
  * @author Tian
  */
 public class Person implements Serializable{
-    private int SSN;
-    private String lName;
-    private String fName;
+    private String ssn;
+    private String lname;
+    private String fname;
     private String address;
-    private int zipCode;
-    private int telephone;
+    private String zipcode;
+    private String telephone;
+    private String state;
+    private String city;
+    
     public Person(){
         
     }
     
-    public void setSSN(int newSSN){ SSN = newSSN;}
-    public int getSSN(){ return SSN;}
+    public void setSSN(String newSSN){ ssn = newSSN;}
+    public String getSSN(){ return ssn;}
     
-    public void setLName(String lname){ lName = lname;}
-    public String getLName(){ return lName;}
+    public void setLName(String lname){ this.lname = lname;}
+    public String getLName(){ return lname;}
     
-    public void setFName(String fname){ fName = fname;}
-    public String getFName(){ return fName;}
+    public void setFName(String fname){ this.fname = fname;}
+    public String getFName(){ return fname;}
     
     public void setAddress(String newAdd){ address=newAdd;}
     public String getAddress(){ return address;}
     
-    public void setZipCode(int zip){ zipCode=zip;}
-    public int getZipCode(){ return zipCode;}
+    public void setZipCode(String zip){ zipcode=zip;}
+    public String getZipCode(){ return zipcode;}
     
-    public void setTelephone(int phone){ telephone=phone;}
-    public int getTelephone(){ return telephone;}
+    public void setTelephone(String phone){ telephone=phone;}
+    public String getTelephone(){ return telephone;}
+    
+    public void setState(String s){state = s;}
+    public String getState(){return state;}
+    
+    public void setCity(String c){city=c; }
+    public String getCity(){return city;}
+
+   
 }

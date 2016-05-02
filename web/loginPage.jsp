@@ -9,7 +9,7 @@
 
                     <div class="col-md-12">
                         <div  style="font-size:150%;">
-                            <form action="LoginServlet" method="POST" id="loginForm" >
+                            <form action= "LoginServlet" method="POST" id="loginForm" >
                                 <div class="modal-body">
                                     <div style="font-size:20px;">
                                         <Span><Strong>Sign in as:</Strong></Span>
@@ -35,12 +35,13 @@
                                     </div>
 
                                 </div>
-
+                            </form> 
                                 <!-- End | Register Form -->
 
+                               
                             </div>
 
-                        </form>
+                        
                     </div>
                 </div>
             </div>
